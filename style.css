@@ -11,7 +11,7 @@ body {
      margin: 0 auto; 
     
 }
-/* Centering the container and styling */
+
 #search-container {
     padding: 10px;
     width: 500px;
@@ -25,7 +25,7 @@ body {
     height: 8vh; 
 }
 
-/* Styling the search bar */
+
 #search {
     padding: 12px;
     width: 100%; 
@@ -43,11 +43,14 @@ body {
 
 #participants-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust to auto-fit */
     gap: 20px;
+    max-width: 80%; /* Restrict container width */
+    margin: 0 auto; /* Center the grid */
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 .participant-card {
     background-color: #fff;
