@@ -1,7 +1,7 @@
 const participants = [
     { name: 'Pujjaa', image: 'girl1.png' },
       { name: 'Pratham', image: 'boy1.png' },
-      { name: 'Vinay', image: 'boy2.png' },
+      { name: 'Abhii', image: 'boy2.png' },
       { name: 'Siddharth', image: 'boy1.png' },
       { name: 'Vaishnavi', image: 'girl2.png' },
       { name: 'Saurabh', image: 'boy1.png' },
