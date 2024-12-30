@@ -15,7 +15,7 @@ const participants = [
       { name: 'Sayli', image: 'girl1.png' },
       { name: 'Aakanksha', image: 'girl2.png' },
       { name: 'Pratik', image: 'boy2.png' },
-      { name: 'Abhilasha', image: 'girl1.png'},
+      { name: 'Nandini', image: 'girl1.png'},
     ];
     
     const participantsContainer = document.getElementById('participants-container');
